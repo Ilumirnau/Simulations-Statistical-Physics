@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Sep 18 18:39:07 2021
-
-@author: arnau
-"""
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.neighbors import KernelDensity
@@ -32,7 +24,7 @@ def fancy_t(time):
 def gaussian(x, a, b, c):
     return a*np.exp(-np.power(x - b, 2)/(2*c)) 
 
-#Function to round number "valor" so that it has "num_xs" decimals
+# Function to round number "valor" so that it has "num_xs" decimals
 def xs(valor, num_xs):
     num = valor*10**(num_xs)
     if num < 0:
@@ -103,7 +95,7 @@ def rw_1d(l, p, N, M): #p (probability of walking +l) N (trajectories) M(steps)
     plt.text(-.1,.3, r'$b=\langle x \rangle = (2p-1)Ml=$'+str(xs(M*(2*p - 1)*l,2))+'       '+r'$c=\sigma^2 = l^2[M-(2p-1)^2]=$'+str(xs(l**2 * M - (2*p-1)**2, 2)))
     plt.text(-.1,.2, r'$a=\frac{1}{\sqrt{2\pi c}}=$'+str(xs(1/np.sqrt(2*np.pi * l**2 * (M - (2*p-1)**2)),3)))
     plt.savefig('rw_1d_'+str(N)+'_'+str(M)+'_'+str(p)+'_distr_params.pdf')
-l,p,N,M = 1, 0.6, 3000, 300
+l,p,N,M = 1, 0.6, 3000, 300 #data to plot an example
 rw_1d(l,p,N,M)
 toc = time.perf_counter()
 print('Temps final:', fancy_t(toc-tic))
