@@ -5,7 +5,7 @@
 -The other one will contain the data of the Gaussian distribution of the numerical simulation and the expected values from the theoretical point of view (the file name will be ('..._distr_params.pdf').
 
 
-ising.py is a Montecarlo simulation via the Metropolis algorithm of a 20x20 matrix of up&down spins. The result will be:
+ising.py is a Montecarlo simulation via the Metropolis algorithm of a 20x20 matrix of up&down spins that interact as in the Ising model. The result will be:
 
 -Plots of the system as the temperature increases to visualize its evolution
 
