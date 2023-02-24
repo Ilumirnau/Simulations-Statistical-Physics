@@ -1,11 +1,11 @@
-<strong> RW-1D </strong> inlcudes a code that will allow you to illustrate a one-dimensional random walk (RW) algorithm. The final results are two pdf documents:
+<strong> RW-1D </strong> includes a code that will allow you to illustrate a one-dimensional random walk (RW) algorithm. The final results are two pdf documents:
+<ol>
+<li>One for the plot of all the positions along the M steps of the N trajectories together with the probability distribution of the final positions for these trajectories (the file name will be ('..._total_fig.pdf').</li>
 
--One for the plot of all the positions along the M steps of the N trajectories together with the probability distribution of the final positions for these trajectories (the file name will be ('..._total_fig.pdf').
+<li>The other one will contain the data of the Gaussian distribution of the final positions of the simulated walks and the expected theoretical values (the file name will be ('..._distr_params.pdf').</li>
 
--The other one will contain the data of the Gaussian distribution of the final positions of the simulated walks and the expected theoretical values (the file name will be ('..._distr_params.pdf').
-
--This algorithm allows the study of 1-dimensional diffusion and includes the effect of drift in the RW, as a result of a biased step probability.
-
+<li>This algorithm allows the study of 1-dimensional diffusion and includes the effect of drift in the RW, as a result of a biased step probability.</li>
+</ol>
 
 Ising includes the file ising.py and it is a Montecarlo simulation implementing the Metropolis algorithm of a 20x20 matrix of up&down interacting spins. The result will be:
 
