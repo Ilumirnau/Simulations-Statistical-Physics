@@ -13,7 +13,7 @@
 
 <li>A gif of all the plots together and a plot of the magnetization evolution.</li>
 
-<li>A text file with energies and magnetization will also be created independently so that data for further calculations of parameters like critical exponents.</li>
+<li>A text file with energy and magnetization data will also be created independently so that data for further calculations of parameters like critical exponents or fluctuations.</li>
 </ul>
 
 With the parameters in the code, there should be a phase transition when the factor (temperature parameter) is close to 2.3, some images of the system at different temperatures around this value are included as an example.
