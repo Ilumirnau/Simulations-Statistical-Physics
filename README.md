@@ -1,4 +1,4 @@
-RW-1D inlcudes a code that will allow you to illustrate a one-dimensional random walk (RW) algorithm. The final results are two pdf documents:
+<strong> RW-1D </strong> inlcudes a code that will allow you to illustrate a one-dimensional random walk (RW) algorithm. The final results are two pdf documents:
 
 -One for the plot of all the positions along the M steps of the N trajectories together with the probability distribution of the final positions for these trajectories (the file name will be ('..._total_fig.pdf').
 
