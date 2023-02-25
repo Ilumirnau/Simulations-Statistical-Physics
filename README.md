@@ -1,3 +1,12 @@
+<strong> Hard-sphere Gas </strong> is a file that contains the simulation of a hard-sphere gas model trapped in a cubic container of hard walls.
+<ul>
+<li> Dynamics of the system. </li>
+<li>  Change of the initial conditions for specific temperatures of the gas. </li>
+<li>  Thermal expansion coefficient.</li>
+<li>  Pressure-volume relation in free expansion (mass-less walls).</li>
+
+</ul>
+
 <strong> RW-1D </strong> includes a code that will allow you to illustrate a one-dimensional random walk (RW) algorithm. The final results are two pdf documents:
 <ul>
 <li>One for the plot of all the positions along the M steps of the N trajectories together with the probability distribution of the final positions for these trajectories (the file name will be ('..._total_fig.pdf').</li>
