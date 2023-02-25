@@ -1,10 +1,4 @@
 from vpython import *
-#GlowScript 3.0 VPython
-
-# Hard-sphere gas.
-
-# Bruce Sherwood
-
 
 win = 500
 
