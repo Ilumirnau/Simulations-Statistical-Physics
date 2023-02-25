@@ -1,1 +1,1 @@
-The same code than in the file <code> Dynamics.py </code> in the folder <i> Dynamics and size optimization</i> is used, but the initial conditions are set so that the speed of the particles follows a Maxwell-Boltzmann distribution corresponding to a temperature of 300 K.
+The same code than in the file <code> Dynamics.py </code> in the folder <i> Dynamics and size optimization </i> is used, but the initial conditions are set so that the speed of the particles follows a Maxwell-Boltzmann distribution corresponding to a temperature of 300 K.
