@@ -1,11 +1,6 @@
 from vpython import *
 import numpy as np
 import matplotlib.pyplot as plt
-#GlowScript 3.0 VPython
-
-# Hard-sphere gas.
-
-# Bruce Sherwood
 
 
 #initial params
