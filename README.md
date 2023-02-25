@@ -1,4 +1,4 @@
-<strong> Hard-Sphere-Gas </strong> is a file that contains the simulation of a hard-sphere gas model trapped in a cubic container of hard walls.
+[Hard-Sphere-Gas](/Hard-Sphere-Gas/) is a file that contains the simulation of a hard-sphere gas model trapped in a cubic container of hard walls.
 <ul>
 <li> Dynamics of the system. </li>
 <li>  Change of the initial conditions for specific temperatures of the gas. </li>
